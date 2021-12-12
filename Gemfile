@@ -17,6 +17,8 @@ group :development, :test do
   gem 'pry-byebug'
   gem 'pry-doc'
   gem "pry-rails"
+  gem 'rubocop-rails', require: false
+  gem 'rubocop-performance', require: false
 end
 
 group :development do
